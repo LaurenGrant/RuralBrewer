@@ -1,0 +1,23 @@
+{
+  "name": "rural_brewer",
+  "version": "1.0.0",
+  "description": "A frontend JavaScript web application.",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-ui": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurenGrant/RuralBrewer.git"
+  },
+  "author": "Lauren Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaurenGrant/RuralBrewer/issues"
+  },
+  "homepage": "https://github.com/LaurenGrant/RuralBrewer#readme"
+}
