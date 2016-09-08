@@ -26079,6 +26079,7 @@
 	var Main = __webpack_require__(222);
 	var NavBar = __webpack_require__(223);
 	var Home = __webpack_require__(224);
+	var Beer = __webpack_require__(225);
 	var Router = __webpack_require__(172);
 	var Route = Router.Route;
 	var IndexRoute = Router.IndexRoute;
@@ -26087,6 +26088,7 @@
 	  Route,
 	  { path: '/', component: Main },
 	  React.createElement(Route, { path: 'home', component: Home }),
+	  React.createElement(Route, { path: 'beer', component: Beer }),
 	  React.createElement(IndexRoute, { component: NavBar })
 	);
 
@@ -26194,6 +26196,343 @@
 	});
 
 	module.exports = Home;
+
+/***/ },
+/* 225 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	var Beer = React.createClass({
+	  displayName: "Beer",
+
+	  render: function render() {
+
+	    return React.createElement(
+	      "div",
+	      { className: "ui doubling stackable three column centered grid" },
+	      React.createElement(
+	        "div",
+	        { className: "center aligned column" },
+	        React.createElement(
+	          "div",
+	          { className: "ui shape" },
+	          React.createElement(
+	            "div",
+	            { className: "sides" },
+	            React.createElement(
+	              "div",
+	              { className: "side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " ",
+	            React.createElement(
+	              "div",
+	              { className: "active side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " ",
+	                React.createElement(
+	                  "div",
+	                  { className: "content" },
+	                  React.createElement(
+	                    "a",
+	                    { className: "ui centered header" },
+	                    "Amber"
+	                  ),
+	                  React.createElement(
+	                    "div",
+	                    { className: "description" },
+	                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	                  ),
+	                  " "
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " "
+	          ),
+	          " "
+	        ),
+	        " "
+	      ),
+	      " ",
+	      React.createElement(
+	        "div",
+	        { className: "center aligned column" },
+	        React.createElement(
+	          "div",
+	          { className: "ui shape" },
+	          React.createElement(
+	            "div",
+	            { className: "sides" },
+	            React.createElement(
+	              "div",
+	              { className: "side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " ",
+	            React.createElement(
+	              "div",
+	              { className: "active side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " ",
+	                React.createElement(
+	                  "div",
+	                  { className: "content" },
+	                  React.createElement(
+	                    "a",
+	                    { className: "ui centered header" },
+	                    "IPA"
+	                  ),
+	                  React.createElement(
+	                    "div",
+	                    { className: "description" },
+	                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	                  ),
+	                  " "
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " "
+	          ),
+	          " "
+	        ),
+	        " "
+	      ),
+	      " ",
+	      React.createElement(
+	        "div",
+	        { className: "center aligned column" },
+	        React.createElement(
+	          "div",
+	          { className: "ui shape" },
+	          React.createElement(
+	            "div",
+	            { className: "sides" },
+	            React.createElement(
+	              "div",
+	              { className: "side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " ",
+	            React.createElement(
+	              "div",
+	              { className: "active side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " ",
+	                React.createElement(
+	                  "div",
+	                  { className: "content" },
+	                  React.createElement(
+	                    "a",
+	                    { className: "ui centered header" },
+	                    "Lager"
+	                  ),
+	                  React.createElement(
+	                    "div",
+	                    { className: "description" },
+	                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	                  ),
+	                  " "
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " "
+	          ),
+	          " "
+	        ),
+	        " "
+	      ),
+	      " ",
+	      React.createElement(
+	        "div",
+	        { className: "center aligned column" },
+	        React.createElement(
+	          "div",
+	          { className: "ui shape" },
+	          React.createElement(
+	            "div",
+	            { className: "sides" },
+	            React.createElement(
+	              "div",
+	              { className: "side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " ",
+	            React.createElement(
+	              "div",
+	              { className: "active side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " ",
+	                React.createElement(
+	                  "div",
+	                  { className: "content" },
+	                  React.createElement(
+	                    "a",
+	                    { className: "ui centered header" },
+	                    "Porter"
+	                  ),
+	                  React.createElement(
+	                    "div",
+	                    { className: "description" },
+	                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	                  ),
+	                  " "
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " "
+	          ),
+	          " "
+	        ),
+	        " "
+	      ),
+	      " ",
+	      React.createElement(
+	        "div",
+	        { className: "center aligned column" },
+	        React.createElement(
+	          "div",
+	          { className: "ui shape" },
+	          React.createElement(
+	            "div",
+	            { className: "sides" },
+	            React.createElement(
+	              "div",
+	              { className: "side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " ",
+	            React.createElement(
+	              "div",
+	              { className: "active side" },
+	              React.createElement(
+	                "div",
+	                { className: "ui card" },
+	                React.createElement(
+	                  "div",
+	                  { className: "image" },
+	                  React.createElement("img", { src: "http://lorempixel.com/300/300/" })
+	                ),
+	                " ",
+	                React.createElement(
+	                  "div",
+	                  { className: "content" },
+	                  React.createElement(
+	                    "a",
+	                    { className: "ui centered header" },
+	                    "White Ale"
+	                  ),
+	                  React.createElement(
+	                    "div",
+	                    { className: "description" },
+	                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	                  ),
+	                  " "
+	                ),
+	                " "
+	              ),
+	              " "
+	            ),
+	            " "
+	          ),
+	          " "
+	        ),
+	        " "
+	      ),
+	      " "
+	    );
+	  }
+	});
+
+	module.exports = Beer;
 
 /***/ }
 /******/ ]);
