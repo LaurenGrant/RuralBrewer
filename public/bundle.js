@@ -26078,6 +26078,7 @@
 	var React = __webpack_require__(1);
 	var Main = __webpack_require__(222);
 	var NavBar = __webpack_require__(223);
+	var Home = __webpack_require__(224);
 	var Router = __webpack_require__(172);
 	var Route = Router.Route;
 	var IndexRoute = Router.IndexRoute;
@@ -26085,6 +26086,7 @@
 	module.exports = React.createElement(
 	  Route,
 	  { path: '/', component: Main },
+	  React.createElement(Route, { path: 'home', component: Home }),
 	  React.createElement(IndexRoute, { component: NavBar })
 	);
 
@@ -26118,46 +26120,80 @@
 /* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(1);
+	var Router = __webpack_require__(172);
+
 	var NavBar = React.createClass({
-	  displayName: "NavBar",
+	  displayName: 'NavBar',
 
 	  render: function render() {
 	    return React.createElement(
-	      "div",
-	      { className: "ui stackable borderless five item menu" },
+	      'div',
+	      { className: 'ui stackable borderless five item menu' },
 	      React.createElement(
-	        "a",
-	        { className: "item" },
-	        "LOGO Will Go HERE"
+	        'a',
+	        { className: 'item' },
+	        'LOGO Will Go HERE'
 	      ),
 	      React.createElement(
-	        "a",
-	        { className: "item" },
-	        "Home"
+	        'a',
+	        { className: 'item' },
+	        'Home'
 	      ),
 	      React.createElement(
-	        "a",
-	        { className: "item" },
-	        "About"
+	        'a',
+	        { className: 'item' },
+	        'About'
 	      ),
 	      React.createElement(
-	        "a",
-	        { className: "item" },
-	        "Brews"
+	        'a',
+	        { className: 'item' },
+	        'Brews'
 	      ),
 	      React.createElement(
-	        "a",
-	        { className: "item" },
-	        "Contact"
+	        'a',
+	        { className: 'item' },
+	        'Contact'
 	      )
 	    );
 	  }
 	});
 
 	module.exports = NavBar;
+
+/***/ },
+/* 224 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	var Home = React.createClass({
+	  displayName: "Home",
+
+	  render: function render() {
+	    return React.createElement(
+	      "div",
+	      { id: "heroHome", className: "ui middle aligned one column centered grid" },
+	      React.createElement(
+	        "div",
+	        { className: "row" },
+	        React.createElement(
+	          "div",
+	          { className: "column" },
+	          React.createElement("img", { className: "ui centered circular image", src: "http://lorempixel.com/200/200/" })
+	        ),
+	        " "
+	      ),
+	      " "
+	    );
+	  }
+	});
+
+	module.exports = Home;
 
 /***/ }
 /******/ ]);
