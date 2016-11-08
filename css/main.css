@@ -1,0 +1,33 @@
+* {
+  font-family: California;
+  src: url(../california/California.tff);
+}
+
+#heroHome {
+  background-image: url('../images/alcohol-21938.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+#heroAbout{
+  background-image: url('../images/factory-1518504.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.overlay {
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.ui.header.white {
+  color: white;
+}
+
+.whiteText {
+  color: white;
+  font-size: 1.5em;
+}
