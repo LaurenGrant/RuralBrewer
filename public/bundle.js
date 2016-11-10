@@ -26079,6 +26079,7 @@
 	var Main = __webpack_require__(222);
 	var NavBar = __webpack_require__(223);
 	var Home = __webpack_require__(224);
+	var About = __webpack_require__(227);
 	var Router = __webpack_require__(172);
 	var Route = Router.Route;
 	var IndexRoute = Router.IndexRoute;
@@ -26087,6 +26088,7 @@
 	  Route,
 	  { path: '/', component: Main },
 	  React.createElement(Route, { path: 'home', component: Home }),
+	  React.createElement(Route, { path: 'about', component: About }),
 	  React.createElement(IndexRoute, { component: NavBar })
 	);
 
@@ -26194,6 +26196,56 @@
 	});
 
 	module.exports = Home;
+
+/***/ },
+/* 225 */,
+/* 226 */,
+/* 227 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	var About = React.createClass({
+	  displayName: "About",
+
+	  render: function render() {
+	    return React.createElement(
+	      "div",
+	      { id: "heroAbout", className: "ui stackable right aligned grid" },
+	      React.createElement(
+	        "div",
+	        { className: "center aligned two column row" },
+	        React.createElement("div", { className: "column" }),
+	        " ",
+	        React.createElement(
+	          "div",
+	          { className: "overlay column" },
+	          React.createElement(
+	            "div",
+	            { className: "ui basic segment" },
+	            React.createElement(
+	              "p",
+	              { className: "whiteText" },
+	              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim, massa non sagittis fermentum, nibh sem consectetur ligula, sit amet mollis ipsum ipsum vitae massa. Sed eget ex quis leo luctus efficitur. Maecenas eget egestas ex. Donec facilisis nisl nec lacus iaculis semper. Nunc sit amet ante augue. Cras venenatis lectus porttitor, viverra eros ut, fringilla nisi. Nulla ultrices egestas mi in condimentum. Fusce in urna sit amet nisi finibus convallis a a nulla. Cras non ligula tincidunt, dignissim magna in, dictum risus. Pellentesque fringilla id urna at interdum. Etiam laoreet vitae dui ac feugiat. Morbi at volutpat dolor. Sed ut urna non orci maximus fringilla. Curabitur mattis ullamcorper ante."
+	            ),
+	            React.createElement(
+	              "p",
+	              { className: "whiteText" },
+	              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dignissim, massa non sagittis fermentum, nibh sem consectetur ligula, sit amet mollis ipsum ipsum vitae massa. Sed eget ex quis leo luctus efficitur. Maecenas eget egestas ex. Donec facilisis nisl nec lacus iaculis semper. Nunc sit amet ante augue. Cras venenatis lectus porttitor, viverra eros ut, fringilla nisi."
+	            )
+	          ),
+	          " "
+	        ),
+	        " "
+	      ),
+	      " "
+	    );
+	  }
+	});
+
+	module.exports = About;
 
 /***/ }
 /******/ ]);
